@@ -34,7 +34,8 @@ function translate() {
     --data auth_key="$auth_key" \
     | jq '.translations[0].text')
 
-  echo $response  # Imprime la respuesta
+  response=$(echo $response | tr -d '"')
+  echo -e "\n$response\n"
 }
 
 function show_languages() {
