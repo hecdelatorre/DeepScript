@@ -9,17 +9,17 @@ Este proyecto consiste en un script en bash que permite traducir texto a un idio
 ## Instalaciones
 
 - Debian
-```
+```bash
 sudo apt update && sudo apt install curl jq
 ```
 
 - Fedora
-```
+```bash
 sudo dnf update && sudo dnf install curl jq
 ```
 
 - Arch
-```
+```bash
 sudo pacman -Syu && sudo pacman -S curl jq
 ```
 
